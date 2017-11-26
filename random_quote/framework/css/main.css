@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: Mukta;
+    line-height: 2.5em;
+    background-image: url('mountain.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+#wrapper {
+    position: relative;
+    font-size: 2em;
+    color: white;
+    width: 400px;
+    height: 250px;
+    margin: 20% auto;
+    margin-bottom: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid orange;
+    background-color: #f59c45;
+    box-shadow: 60px -16px teal;
+    border-radius: 5px 30px 5px 5px;
+    opacity: 0.9;
+}
+
+#tweeterBtn {
+    position: absolute;
+    right: 75%;
+    top: 75%;
+    height: 40px;
+    width: 64px;
+    border: 0;
+    padding: 0;
+    background: #e8d741;
+    color: brown;
+    font-size: 0.8em;
+    box-shadow: 0 10px #27496d;
+    border-radius: 5%;
+    outline: none;
+    cursor: pointer;
+}
+
+#tweeterBtn:hover {
+    background-color: #417cb8;
+    color: white;
+}
+
+#tweeterBtn:active {
+    background-color: #417cb8;
+    box-shadow: 0 5px #27496d;
+    transform: translateY(5px);
+}
+
+#new {
+    height: 40px;
+    width: 64px;
+    font-size: 0.8em;
+    position: absolute;
+    left: 75%;
+    top: 75%;
+    background: #e8d741;
+    border: 0;
+    padding: 0;
+    border-radius: 5%;
+    color: brown;
+    outline: none;
+    box-shadow: 0 10px #27496d;
+    cursor: pointer;
+}
+
+#new:hover {
+    background-color: #417cb8;
+    color: white;
+}
+
+#new:active {
+    background-color: #417cb8;
+    box-shadow: 0 5px #27496d;
+    transform: translateY(5px);
+}
+
+#quote {
+    padding: 2.5em 2em 0 2em;
+}
+
+#author {
+    position: absolute;
+    left: 34%;
+    top: 65%;
+}
+
+footer {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
